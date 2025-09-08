@@ -3,12 +3,10 @@ This project implements Sentiment Analysis on the IMDB movie reviews dataset.
 The goal is to classify reviews as positive or negative using TF-IDF vectorization for text representation and Logistic Regression for classification.
 
 Dataset
-Included in this repository under the folder dataset.
-File: imdb_reviews.csv
-Classes:
-Positive (1)
-Negative (0)
-Features: Review text
+This project uses the **IMDB Movie Reviews Dataset**, a large dataset for binary sentiment classification (positive/negative reviews).  
+Due to file size limitations, the dataset is **not included in this repository**.  
+You can download it directly from the [Kaggle IMDB Dataset](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews).
+After downloading, place the dataset file (e.g., `IMDB Dataset.csv`) inside the `Task2_Sentiment_Analysis/` directory, so the structure looks like this:
 
 Steps Performed
 Load dataset from dataset/imdb_reviews.csv.
